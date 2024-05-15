@@ -7512,5 +7512,31 @@ input.main-search-input:-ms-input-placeholder {
 .foter-layout-2 .subscribe-form input {
     background-color: #f3f3f3;
 }
-
+.mainHeaderSubElementSub{
+	position:absolute;
+	z-index:99;
+    width: 700px;
+	margin-left:260px;
+	margin-top:-54px;
+	display:none;
+}
+.mainHeaderSubElementSub>ul>li{
+	margin-bottom:10px;
+    font-size: 14px;
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+}
+.mainHeaderSubElementSub>ul>li:last-child{
+	margin-bottom:0;
+}
+.mainHeaderSubElementSub>ul>li:hover>a{
+	color:#ff3e41;
+	transtition:200ms;
+}
+.dropdown-menu>li:hover>div{
+	display:block;
+	padding:20px;
+	background-color:white;
+}
 /*# sourceMappingURL=main.css.map */
